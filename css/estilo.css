@@ -1,0 +1,172 @@
+/*
+* 
+* @author Jamilton Damasceno
+*/
+html, body, #home {
+   
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background: url(../imagens/capa.png),
+    url(../imagens/ruido.png),
+    linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+}
+
+#logo {
+    width: 170px;
+    padding: 10px;
+    
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.603);
+    
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+}
+#divisor {
+    width: 1px;
+    margin: 12px 15px;
+    height: 22px;
+    background-color: white;
+}
+.capa {
+    text-align: center;
+}
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+    margin-top: 10x;
+}
+.btn-custom {
+   color: white;
+   border-radius: 500px;
+   -webkit-border-radius: 500px;
+   -moz-border-radius: 500px;
+   text-transform: uppercase;
+   transition: 0.7s, color 0.4s;
+}
+
+.btn-roxo {
+    background: #7c25f8;
+    color: white;
+    margin: 5px;
+}
+.btn-roxo:hover {
+    background-color: #5a07ce;
+    color: white;
+}
+
+.btn-branco {
+    border: 2px solid white;
+    margin: 10px;
+}
+.btn-branco:hover {
+    color: black;
+    background-color: white;
+}
+
+/*Estrutura dos conteudos*/
+
+#servicos {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.albuns {
+    padding: 10px 0px;
+}
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em
+}
+
+#servicos h2, h3{
+    color: #7c25f8;
+    margin-top: 15px;
+}
+
+#recursos {
+
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+
+#recursos h3{
+    color: #9bf0e1;
+    margin-top: 10px;
+}
+#recursos h2 {
+    color: white;
+    margin-top: 20px;
+    font-size: 56px;
+}
+#recursos p {
+    font-size: 17px;
+    color: white;
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    padding-left: 80px;
+    -ms-trasform:rotate(30deg);
+    -webkit-trasform:rotate(30deg);
+    width: 600px;
+    
+}
+
+
+footer {
+    background-color: black;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+footer h4 {
+    color: #919496;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+footer ul {
+    list-style: none;
+}
+footer ul li{
+    float: right;
+    margin: 5px 10px;
+
+}
+
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+    height: 50px;
+    margin-top: 100px;
+    
+   
+}
